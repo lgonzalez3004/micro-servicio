@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: producto-services
+  cloud:
+    config:
+      enabled: true
+      uri: htttp://localhost/8081
+      
+
+
