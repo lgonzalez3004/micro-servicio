@@ -6,7 +6,7 @@ spring:
     config:
       server:
         git:
-          default-label: multi
+          default-label: gateway
           uri: https://github.com/lgonzalez3004/micro-servicio
           search-paths: config-data
   application:

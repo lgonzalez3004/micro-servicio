@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: gatewate-services
+  cloud:
+    config:
+      enabled: true
+      uri: htttp://localhost/8081
+      
