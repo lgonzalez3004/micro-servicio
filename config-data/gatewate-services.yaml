@@ -19,12 +19,5 @@ eureka:
           - id: clientes-services
             uri: lb://clientes-services
             predicates:
-              - path=/cliente/**
-          - id: producto-service
-            uri: lb://producto-service
-            predicates:
-              - path=/producto/**
-          - id: shopping-services
-            uri: lb://shopping-services
-            predicates:
-              - path=/shopping/**
+              - Path=/cliente/**
+         
